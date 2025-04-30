@@ -25,6 +25,7 @@ body {
 .info-text {
     font-size: 18px;
     font-weight: 500;
+    align-items: center;
 }
 
 .call-center {
