@@ -1,0 +1,1310 @@
+.body,
+.body * {
+  box-sizing: border-box;
+}
+.body {
+  background: rgba(0, 0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.div {
+  background: #1f4068;
+  flex-shrink: 0;
+  width: 1440px;
+  height: 64px;
+  position: relative;
+}
+.div2 {
+  background: rgba(0, 0, 0, 0);
+  width: 1280px;
+  height: 32px;
+  position: absolute;
+  left: 80px;
+  top: 16px;
+}
+.div3 {
+  background: rgba(0, 0, 0, 0);
+  width: 1248px;
+  height: 32px;
+  position: absolute;
+  left: 16px;
+  top: 0px;
+}
+.ma-sains-roudlotul-qur-an-lamongan {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 30px;
+  top: -1px;
+  width: 489px;
+  height: 33px;
+}
+.nav {
+  background: rgba(0, 0, 0, 0);
+  width: 379.89px;
+  height: 24px;
+  position: absolute;
+  left: 868.11px;
+  top: 4px;
+}
+.home {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 48px;
+  height: 23px;
+}
+.profile {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 87.89px;
+  top: 0px;
+  width: 78px;
+  height: 23px;
+}
+.program {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 182.89px;
+  top: 0px;
+  width: 115px;
+  height: 23px;
+}
+.informasi {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 314.89px;
+  top: 0px;
+  width: 93px;
+  height: 23px;
+}
+.main {
+  background: #f9f7e8;
+  flex-shrink: 0;
+  width: 1440px;
+  height: 1821px;
+  position: relative;
+}
+.section {
+  background: rgba(0, 0, 0, 0);
+  width: 1280px;
+  height: 658px;
+  position: absolute;
+  left: 80px;
+  top: 691px;
+}
+.section2 {
+  background: rgba(0, 0, 0, 0);
+  width: 1280px;
+  height: 308px;
+  position: absolute;
+  left: -2px;
+  top: 66px;
+}
+.program-peminatan {
+  color: #1f4068;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  position: absolute;
+  left: 40px;
+  top: -4px;
+  width: 385px;
+  height: 43px;
+}
+.div4 {
+  background: rgba(0, 0, 0, 0);
+  width: 1248px;
+  height: 240px;
+  position: absolute;
+  left: 16px;
+  top: 68px;
+}
+.div5 {
+  background: #ffffff;
+  border-radius: 8px;
+  width: 394.66px;
+  height: 240px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1),
+    0px 4px 6px 0px rgba(0, 0, 0, 0.1);
+}
+.div6 {
+  background: rgba(0, 0, 0, 0);
+  width: 346.66px;
+  height: 36px;
+  position: absolute;
+  left: 24px;
+  top: 24px;
+}
+.h-3 {
+  background: rgba(0, 0, 0, 0);
+  width: 346.66px;
+  height: 28px;
+  position: absolute;
+  left: 24px;
+  top: 76px;
+}
+.matematika {
+  color: #1f4068;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 165px;
+  height: 28px;
+}
+.p {
+  background: rgba(0, 0, 0, 0);
+  width: 346.66px;
+  height: 48px;
+  position: absolute;
+  left: 24px;
+  top: 112px;
+}
+.learn-various-instruments-and-participate {
+  color: #4b5563;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 336px;
+  height: 23px;
+}
+.in-school-concerts-and-competitions {
+  color: #4b5563;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 24px;
+  width: 295px;
+  height: 23px;
+}
+.button {
+  background: #4d8076;
+  border-radius: 9999px;
+  width: 152.69px;
+  height: 40px;
+  position: absolute;
+  left: 24px;
+  top: 176px;
+}
+.detail {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 24px;
+  top: 8px;
+  width: 104px;
+  height: 23px;
+}
+.pngtree-math-6185232-1 {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  left: 24px;
+  top: 12px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.div7 {
+  background: #ffffff;
+  border-radius: 8px;
+  width: 394.67px;
+  height: 240px;
+  position: absolute;
+  left: 426.66px;
+  top: 0px;
+  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1),
+    0px 4px 6px 0px rgba(0, 0, 0, 0.1);
+}
+.div8 {
+  background: rgba(0, 0, 0, 0);
+  width: 346.67px;
+  height: 36px;
+  position: absolute;
+  left: 24px;
+  top: 24px;
+}
+.h-32 {
+  background: rgba(0, 0, 0, 0);
+  width: 346.67px;
+  height: 28px;
+  position: absolute;
+  left: 24px;
+  top: 76px;
+}
+.fisika {
+  color: #1f4068;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 0.34px;
+  top: 0px;
+  width: 167px;
+  height: 28px;
+}
+.p2 {
+  background: rgba(0, 0, 0, 0);
+  width: 346.67px;
+  height: 48px;
+  position: absolute;
+  left: 24px;
+  top: 112px;
+}
+.join-various-sports-teams-and-compete-in {
+  color: #4b5563;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 337px;
+  height: 23px;
+}
+.interschool-tournaments {
+  color: #4b5563;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 24px;
+  width: 201px;
+  height: 23px;
+}
+.pngtree-physics-vector-flat-icon-school-5684050-1 {
+  width: 62px;
+  height: 62px;
+  position: absolute;
+  left: 24.34px;
+  top: 14px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.div9 {
+  background: #ffffff;
+  border-radius: 8px;
+  width: 394.66px;
+  height: 240px;
+  position: absolute;
+  left: 853.33px;
+  top: 0px;
+  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1),
+    0px 4px 6px 0px rgba(0, 0, 0, 0.1);
+}
+.kimia {
+  color: #1f4068;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 142px;
+  height: 28px;
+}
+.build-and-program-robots-participate-in {
+  color: #4b5563;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 321px;
+  height: 23px;
+}
+.robotics-competitions {
+  color: #4b5563;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 24px;
+  width: 179px;
+  height: 23px;
+}
+.png-transparent-chemistry-computer-icons-others-angle-chemical-chemistry-removebg-preview-1 {
+  width: 100px;
+  height: 56px;
+  position: absolute;
+  left: 0.67px;
+  top: 14px;
+  object-fit: cover;
+  aspect-ratio: 100/56;
+}
+.div10 {
+  background: rgba(0, 0, 0, 0);
+  width: 1248px;
+  height: 240px;
+  position: absolute;
+  left: 14px;
+  top: 438px;
+}
+.image-1 {
+  width: 73px;
+  height: 68px;
+  position: absolute;
+  left: 0px;
+  top: 8px;
+  aspect-ratio: 73/68;
+}
+.biologi {
+  color: #1f4068;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 235px;
+  height: 28px;
+}
+.png-clipart-molecular-biology-biologist-conselho-federal-de-biologia-science-no-1-biology-logo-thumbnail-removebg-preview-1 {
+  width: 64px;
+  height: 61px;
+  position: absolute;
+  left: 24px;
+  top: 11px;
+  object-fit: cover;
+  aspect-ratio: 64/61;
+}
+.tafsir-sains {
+  color: #1f4068;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 0.34px;
+  top: 0px;
+  width: 219px;
+  height: 28px;
+}
+.pngtree-al-quran-holy-book-of-muslims-realistic-png-png-image-4511688-removebg-preview-1 {
+  width: 85px;
+  height: 85px;
+  position: absolute;
+  left: 24.34px;
+  top: 5px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.desain-grafis {
+  color: #1f4068;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: -0.33px;
+  top: 0px;
+  width: 210px;
+  height: 28px;
+}
+.laptop-screen-icon-analyzing-charts-elements-3-d-sketch-6921608-removebg-preview-1 {
+  width: 83px;
+  height: 83px;
+  position: absolute;
+  left: 23.67px;
+  top: 0px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.div11 {
+  background: rgba(0, 0, 0, 0);
+  width: 1248px;
+  height: 40px;
+  position: absolute;
+  left: 80px;
+  top: 34px;
+}
+.ppdb-ma-sains-roudlotul-qur-an-lamongan {
+  color: #1f4068;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  position: absolute;
+  left: 49px;
+  top: -2px;
+  width: 687px;
+  height: 43px;
+}
+.pendaftaran-ma-sains-roudlotul-qur-an-online-https-bit-ly-ppdbmasarq-2526-info-lebih-lanjut-085872761232-ustdz-arin-085733506373-ustdz-tika-1-1 {
+  width: 490px;
+  height: 613px;
+  position: absolute;
+  left: 190px;
+  top: 95px;
+  object-fit: cover;
+  aspect-ratio: 490/613;
+}
+.div12 {
+  background: #ffffff;
+  border-radius: 8px;
+  width: 394.66px;
+  height: 396px;
+  position: absolute;
+  left: 956px;
+  top: 1399px;
+  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1),
+    0px 4px 6px 0px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.div13 {
+  background: rgba(0, 0, 0, 0);
+  width: 394.66px;
+  height: 176px;
+  position: absolute;
+  left: 0px;
+  top: 192px;
+}
+.div14 {
+  background: rgba(0, 0, 0, 0);
+  width: 346.66px;
+  height: 28px;
+  position: absolute;
+  left: 24px;
+  top: 24px;
+}
+.art-exhibition-winner {
+  color: #1f4068;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 217px;
+  height: 28px;
+}
+.span {
+  background: #77aca2;
+  border-radius: 9999px;
+  width: 51.83px;
+  height: 28px;
+  position: absolute;
+  left: 294.83px;
+  top: 0px;
+}
+.arts {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 12px;
+  top: 4px;
+  width: 28px;
+  height: 20px;
+}
+.best-young-artist-award-at-the-state-art-exhibition-for-outstanding-oil-painting {
+  color: #4b5563;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 24px;
+  top: 72px;
+  width: 314px;
+  height: 23px;
+}
+.div15 {
+  background: rgba(0, 0, 0, 0);
+  width: 346.66px;
+  height: 20px;
+  position: absolute;
+  left: 24px;
+  top: 132px;
+}
+.may-20-2025 {
+  color: #6b7280;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 20.25px;
+  top: 0px;
+  width: 91px;
+  height: 20px;
+}
+.frame {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 12.25px;
+  height: 14px;
+  position: absolute;
+  left: 0px;
+  top: 2.75px;
+  overflow: hidden;
+}
+.frame2 {
+  flex-shrink: 0;
+  width: 12.25px;
+  height: 14px;
+  position: relative;
+  overflow: visible;
+}
+.state-art-gallery {
+  color: #6b7280;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 232.16px;
+  top: 0px;
+  width: 113px;
+  height: 20px;
+}
+.frame3 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 10.5px;
+  height: 14px;
+  position: absolute;
+  left: 213.66px;
+  top: 2.75px;
+  overflow: hidden;
+}
+.frame4 {
+  flex-shrink: 0;
+  width: 10.5px;
+  height: 14px;
+  position: relative;
+  overflow: visible;
+}
+.div16 {
+  background: #ffffff;
+  border-radius: 8px;
+  width: 394.67px;
+  height: 396px;
+  position: absolute;
+  left: 522px;
+  top: 1399px;
+  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1),
+    0px 4px 6px 0px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.div17 {
+  background: rgba(0, 0, 0, 0);
+  width: 394.67px;
+  height: 176px;
+  position: absolute;
+  left: 0px;
+  top: 192px;
+}
+.div18 {
+  background: rgba(0, 0, 0, 0);
+  width: 346.67px;
+  height: 28px;
+  position: absolute;
+  left: 24px;
+  top: 24px;
+}
+.regional-chess-champion {
+  color: #1f4068;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 272px;
+  height: 28px;
+}
+.span2 {
+  background: #77aca2;
+  border-radius: 9999px;
+  width: 68.95px;
+  height: 28px;
+  position: absolute;
+  left: 277.72px;
+  top: 0px;
+}
+.sports {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 12px;
+  top: 4px;
+  width: 45px;
+  height: 20px;
+}
+.winner-of-the-regional-chess-championship-qualifying-for-nationals {
+  color: #4b5563;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 24px;
+  top: 72px;
+  width: 318px;
+  height: 23px;
+}
+.div19 {
+  background: rgba(0, 0, 0, 0);
+  width: 346.67px;
+  height: 20px;
+  position: absolute;
+  left: 24px;
+  top: 132px;
+}
+.april-2-2025 {
+  color: #6b7280;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 20.25px;
+  top: 0px;
+  width: 83px;
+  height: 20px;
+}
+.frame5 {
+  flex-shrink: 0;
+  width: 12.25px;
+  height: 14px;
+  position: relative;
+  overflow: visible;
+}
+.city-sports-complex {
+  color: #6b7280;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 203.45px;
+  top: 0px;
+  width: 142px;
+  height: 20px;
+}
+.frame6 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 10.5px;
+  height: 14px;
+  position: absolute;
+  left: 184.95px;
+  top: 2.75px;
+  overflow: hidden;
+}
+.frame7 {
+  flex-shrink: 0;
+  width: 10.5px;
+  height: 14px;
+  position: relative;
+  overflow: visible;
+}
+.div20 {
+  background: #ffffff;
+  border-radius: 8px;
+  width: 394.66px;
+  height: 396px;
+  position: absolute;
+  left: 87px;
+  top: 1399px;
+  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1),
+    0px 4px 6px 0px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.div21 {
+  background: rgba(0, 0, 0, 0);
+  width: 394.66px;
+  height: 204px;
+  position: absolute;
+  left: 0px;
+  top: 192px;
+}
+.div22 {
+  background: rgba(0, 0, 0, 0);
+  width: 346.66px;
+  height: 56px;
+  position: absolute;
+  left: 24px;
+  top: 24px;
+}
+.national-science-fair-winner {
+  color: #1f4068;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 4px;
+  width: 217px;
+  height: 28px;
+}
+.span3 {
+  background: #77aca2;
+  border-radius: 9999px;
+  width: 79.33px;
+  height: 28px;
+  position: absolute;
+  left: 267.33px;
+  top: 0px;
+}
+.science {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 12px;
+  top: 4px;
+  width: 55px;
+  height: 20px;
+}
+.first-place-in-the-national-science-fair-for-innovative-research-in-renewable-energy {
+  color: #4b5563;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 24px;
+  top: 100px;
+  width: 334px;
+  height: 23px;
+}
+.div23 {
+  background: rgba(0, 0, 0, 0);
+  width: 346.66px;
+  height: 20px;
+  position: absolute;
+  left: 24px;
+  top: 160px;
+}
+.march-15-2025 {
+  color: #6b7280;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 20.25px;
+  top: 0px;
+  width: 102px;
+  height: 20px;
+}
+.frame8 {
+  flex-shrink: 0;
+  width: 12.25px;
+  height: 14px;
+  position: relative;
+  overflow: visible;
+}
+.national-convention-center {
+  color: #6b7280;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 150.36px;
+  top: 0px;
+  width: 195px;
+  height: 20px;
+}
+.frame9 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 10.5px;
+  height: 14px;
+  position: absolute;
+  left: 131.86px;
+  top: 2.75px;
+  overflow: hidden;
+}
+.frame10 {
+  flex-shrink: 0;
+  width: 10.5px;
+  height: 14px;
+  position: relative;
+  overflow: visible;
+}
+.footer {
+  background: #1f4068;
+  flex-shrink: 0;
+  width: 1440px;
+  height: 317px;
+  position: relative;
+}
+.div24 {
+  background: rgba(0, 0, 0, 0);
+  width: 1280px;
+  height: 253px;
+  position: absolute;
+  left: 80px;
+  top: 32px;
+}
+.div25 {
+  background: rgba(0, 0, 0, 0);
+  width: 1248px;
+  height: 164px;
+  position: absolute;
+  left: 16px;
+  top: 0px;
+}
+.div26 {
+  background: rgba(0, 0, 0, 0);
+  width: 394.66px;
+  height: 164px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.contact-us {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 113px;
+  height: 28px;
+}
+.info-schoolprogram-com {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 24px;
+  top: 44px;
+  width: 210px;
+  height: 23px;
+}
+.frame11 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 0px;
+  top: 47px;
+  overflow: hidden;
+}
+.frame12 {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+._555-123-4567 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 24px;
+  top: 76px;
+  width: 121px;
+  height: 23px;
+}
+.frame13 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 0px;
+  top: 79px;
+  overflow: hidden;
+}
+.frame14 {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+._123-education-st-city-state {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 20px;
+  top: 108px;
+  width: 216px;
+  height: 23px;
+}
+.frame15 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 12px;
+  height: 16px;
+  position: absolute;
+  left: 0px;
+  top: 111px;
+  overflow: hidden;
+}
+.frame16 {
+  flex-shrink: 0;
+  width: 12px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.div27 {
+  background: rgba(0, 0, 0, 0);
+  width: 394.67px;
+  height: 164px;
+  position: absolute;
+  left: 426.66px;
+  top: 0px;
+}
+.quick-links {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 117px;
+  height: 28px;
+}
+.ul {
+  background: rgba(0, 0, 0, 0);
+  width: 394.67px;
+  height: 120px;
+  position: absolute;
+  left: 0px;
+  top: 44px;
+}
+.li {
+  background: rgba(0, 0, 0, 0);
+  width: 394.67px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.about-us {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 72px;
+  height: 23px;
+}
+.li2 {
+  background: rgba(0, 0, 0, 0);
+  width: 394.67px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 32px;
+}
+.programs {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 78px;
+  height: 23px;
+}
+.li3 {
+  background: rgba(0, 0, 0, 0);
+  width: 394.67px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 64px;
+}
+.events {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 52px;
+  height: 23px;
+}
+.li4 {
+  background: rgba(0, 0, 0, 0);
+  width: 394.67px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 96px;
+}
+.contact {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 66px;
+  height: 23px;
+}
+.div28 {
+  background: rgba(0, 0, 0, 0);
+  width: 394.66px;
+  height: 164px;
+  position: absolute;
+  left: 853.33px;
+  top: 0px;
+}
+.follow-us {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 96px;
+  height: 28px;
+}
+.div29 {
+  background: rgba(0, 0, 0, 0);
+  width: 394.66px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 44px;
+}
+.frame17 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.frame18 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.frame19 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 40px;
+  top: 0px;
+  overflow: hidden;
+}
+.frame20 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.frame21 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 21px;
+  height: 24px;
+  position: absolute;
+  left: 80px;
+  top: 0px;
+  overflow: hidden;
+}
+.frame22 {
+  flex-shrink: 0;
+  width: 21px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.frame23 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 21px;
+  height: 24px;
+  position: absolute;
+  left: 117px;
+  top: 0px;
+  overflow: hidden;
+}
+.frame24 {
+  flex-shrink: 0;
+  width: 21px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.div30 {
+  background: rgba(0, 0, 0, 0);
+  border-style: solid;
+  border-color: #374151;
+  border-width: 1px 0px 0px 0px;
+  width: 1248px;
+  height: 57px;
+  position: absolute;
+  left: 16px;
+  top: 196px;
+}
+._2025-school-program-all-rights-reserved {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 451.45px;
+  top: 33px;
+  width: 341px;
+  height: 23px;
+}
