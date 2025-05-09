@@ -23,22 +23,22 @@ header{
     font-weight: bold;
 }
 
-nav ul {
+nav {
     display: flex;
     list-style: none;
+    
 }
 
-nav ul li{
+span a{
     margin-left: 30px;
-}
-
-nav ul li a {
     color: white;
     text-decoration: none;
 }
+
 
 .hero{
     max-width: 1920px;
     max-height: 500px;
     margin: auto;
 }
+
