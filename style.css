@@ -1,3 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    bac: #f9f7e8;
+}
+
 header{
     background-color: #1a3a5f;
     color: white;
@@ -7,16 +18,27 @@ header{
     align-items: center;
 }
 
+.judul{
+    font-size: 20px;
+    font-weight: bold;
+}
+
 nav ul {
     display: flex;
     list-style: none;
 }
 
-nav ul li {
+nav ul li{
     margin-left: 30px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
+}
+
+.hero{
+    max-width: 1920px;
+    max-height: 500px;
+    margin: auto;
 }
