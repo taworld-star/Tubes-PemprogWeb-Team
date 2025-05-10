@@ -57,7 +57,8 @@ h1{
     font-size: 80px;
     margin-left: 30px;
     top: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
 }
 
 
@@ -66,7 +67,7 @@ p{
     position: relative;
     margin-left: 30px;
     font-size: 20px;
-    top: 35px;
+    top: 30px;
 }
 img{
     object-fit: cover;
