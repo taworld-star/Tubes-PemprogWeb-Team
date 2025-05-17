@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #f9f7e8;
+    background-color: #ffefba;
 }
 
 header{
@@ -95,4 +95,31 @@ img{
     text-indent: 50px;
     line-height: 50px;
     top: -10px;
+    font-family: poppins-bold;
+}
+
+.isi-visimisi{
+    position: relative;
+    margin: 35px;
+    text-align: justify ;
+    font-size: 34px;
+    justify-items: center;
+    /* text-indent: 50px; */
+    line-height: 50px;
+    top: -10px;
+    font-family: poppins-bold;
+}
+
+.visi{
+    position: relative;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+}
+
+.misi{
+    position: relative;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
 }
