@@ -3,8 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Program</title>
+    <title>Program - MA Sains Roudlotul Qur'an</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- CSS-->
     <link rel="stylesheet" href="program.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <!-- Header -->
@@ -19,87 +24,153 @@
       </ul>
     </nav>
   </header>
-  
+
   <!-- Main content -->
-  <div class="container">
+  <div class="container my-5">
     <!-- Extracurricular Activities -->
     <h2 class="section-title">Aktivitas Ekstrakurikuler</h2>
-    <div class="activities-grid">
-      <!-- Activity 1 -->
-      <div class="activity-card">
-        <div class="activity-icon">🏵️</div>
-        <h3 class="activity-title">Pramuka</h3>
-        <p class="activity-description">Learn various instruments and participate in school concerts and competitions.</p>
-        <button class="register-btn">Register Now</button>
+    <div class="row g-4 activities-grid"> <!-- Grid Bootstrap -->
+
+      <!-- Activity 1: Pramuka -->
+      <div class="col-md-6 col-lg-4">
+        <div class="activity-card"
+             data-bs-toggle="modal" data-bs-target="#programModal"
+             data-program-title="Pramuka"
+             data-program-logo="asset/logopramuka.png"
+             data-program-description="Kegiatan kepanduan yang melatih kedisiplinan, keterampilan bertahan hidup, kerjasama tim, dan kepemimpinan. 
+             Belajar tali-temali, PBB, sandi, dan kegiatan alam."
+             data-program-registration="Hubungi Pembina Pramuka: Bapak/Ibu di ruang OSIS atau email: pramuka@masainsrq.sch.id">
+          <!-- Konten yang terlihat di kartu -->
+          <img src="asset/logopramuka.png" alt="Pramuka Logo" class="activity-logo">
+          <h3 class="activity-title">Pramuka</h3>
+          <p class="activity-description">Melatih kedisiplinan, kerjasama, dan keterampilan kepanduan.</p>
+        </div>
       </div>
-      
-      <!-- Activity 2 -->
-      <div class="activity-card">
-        <div class="activity-icon">⚽</div>
-        <h3 class="activity-title">Paduan Suara</h3>
-        <p class="activity-description">Join various sports teams and compete in interschool tournaments.</p>
-        <button class="register-btn">Register Now</button>
+
+      <!-- Activity 2: Paduan Suara (FIXED STRUCTURE) -->
+      <div class="col-md-6 col-lg-4">
+        <div class="activity-card"
+             data-bs-toggle="modal" data-bs-target="#programModal"
+             data-program-title="Paduan Suara"
+             data-program-logo="asset/paduansuara.png"
+             data-program-description="Mengembangkan bakat vokal, belajar teknik bernyanyi dalam harmoni, membaca notasi musik, dan tampil dalam acara sekolah maupun kompetisi."
+             data-program-registration="Pendaftaran akan diinformasikan pembukaan dan bisa didaftar lewat website jika sudah dibuka.">
+          <!-- Konten yang terlihat di kartu -->
+          <img src="asset/paduansuara.png" alt="Paduan Suara Logo" class="activity-logo">
+          <h3 class="activity-title">Paduan Suara</h3>
+          <p class="activity-description">Mengembangkan bakat vokal dan harmoni dalam kelompok.</p>
+        </div>
       </div>
-      
-      <!-- Activity 3 -->
-      <div class="activity-card">
-        <div class="activity-icon">🤖</div>
-        <h3 class="activity-title">Elektro</h3>
-        <p class="activity-description">Build and program robots, participate in robotics competitions.</p>
-        <button class="register-btn">Register Now</button>
+
+      <!-- Activity 3: Elektro -->
+      <div class="col-md-6 col-lg-4">
+        <div class="activity-card"
+             data-bs-toggle="modal" data-bs-target="#programModal"
+             data-program-title="Elektro"
+             data-program-logo="images/elektro-logo.png"
+             data-program-description="Mempelajari dasar-dasar elektronika, merakit sirkuit sederhana, troubleshooting, dan eksplorasi teknologi kelistrikan dasar."
+             data-program-registration="Temui Bapak [Nama Pembina Elektro] di Laboratorium Fisika setiap hari Selasa pukul 15:00.">
+          <!-- Konten yang terlihat di kartu -->
+          <img src="asset/elektro.png" alt="Elektro Logo" class="activity-logo">
+          <h3 class="activity-title">Elektro</h3>
+          <p class="activity-description">Belajar dasar-dasar elektronika dan merakit sirkuit.</p>
+        </div>
       </div>
-      
-      <!-- Activity 4 -->
-      <div class="activity-card">
-        <div class="activity-icon">🚩</div>
-        <h3 class="activity-title">Palang Merah Remaja</h3>
-        <p class="activity-description">Learn various instruments and participate in school concerts and competitions.</p>
-        <button class="register-btn">Register Now</button>
+
+      <!-- Activity 4: Palang Merah Remaja (PMR) -->
+      <div class="col-md-6 col-lg-4">
+        <div class="activity-card"
+             data-bs-toggle="modal" data-bs-target="#programModal"
+             data-program-title="Palang Merah Remaja (PMR)"
+             data-program-logo="images/pmr-logo.png"
+             data-program-description="Belajar prinsip-prinsip dasar pertolongan pertama, kesehatan remaja, donor darah sukarela, dan kegiatan kemanusiaan lainnya dibawah naungan Palang Merah Indonesia."
+             data-program-registration="Pendaftaran dibuka di stand PMR saat MPLS atau hubungi Pembina PMR di Ruang UKS.">
+          <!-- Konten yang terlihat di kartu -->
+          <img src="asset/PMRlogo.png" alt="PMR Logo" class="activity-logo">
+          <h3 class="activity-title">Palang Merah Remaja</h3>
+          <p class="activity-description">Belajar pertolongan pertama dan kegiatan kemanusiaan.</p>
+        </div>
       </div>
-      
-      <!-- Activity 5 -->
-      <div class="activity-card">
-        <div class="activity-icon">⚽</div>
-        <h3 class="activity-title">KIR</h3>
-        <p class="activity-description">Join various sports teams and compete in interschool tournaments.</p>
-        <button class="register-btn">Register Now</button>
+
+      <!-- Activity 5: Kelompok Ilmiah Remaja (KIR) -->
+      <div class="col-md-6 col-lg-4">
+        <div class="activity-card"
+             data-bs-toggle="modal" data-bs-target="#programModal"
+             data-program-title="Kelompok Ilmiah Remaja (KIR)"
+             data-program-logo="images/kir-logo.png"
+             data-program-description="Wadah bagi siswa yang berminat dalam penelitian ilmiah, belajar metode penelitian, penulisan karya ilmiah, dan mengikuti kompetisi sains."
+             data-program-registration="Datang ke pertemuan rutin setiap hari Jumat pukul 14:30 di Ruang Lab IPA atau hubungi Koordinator KIR.">
+           <!-- Konten yang terlihat di kartu -->
+           <img src="asset/kirLogo.png" alt="KIR Logo" class="activity-logo">
+           <h3 class="activity-title">KIR</h3>
+           <p class="activity-description">Mengembangkan minat dan bakat dalam penelitian ilmiah.</p>
+        </div>
       </div>
-      
-      <!-- Activity 6 -->
-      <div class="activity-card">
-        <div class="activity-icon">🤖</div>
-        <h3 class="activity-title">Banjari</h3>
-        <p class="activity-description">Build and program robots, participate in robotics competitions.</p>
-        <button class="register-btn">Register Now</button>
-      </div>
-      
-      <!-- Activity 7 -->
-      <div class="activity-card">
-        <div class="activity-icon">🤖</div>
-        <h3 class="activity-title">Robotika</h3>
-        <p class="activity-description">Learn various instruments and participate in school concerts and competitions.</p>
-        <button class="register-btn">Register Now</button>
-      </div>
-      
-      <!-- Activity 8 -->
-      <div class="activity-card">
-        <div class="activity-icon">⚽</div>
-        <h3 class="activity-title">Futsal</h3>
-        <p class="activity-description">Join various sports teams and compete in interschool tournaments.</p>
-        <button class="register-btn">Register Now</button>
-      </div>
-      
-      <!-- Activity 9 -->
-      <div class="activity-card">
-        <div class="activity-icon">🤖</div>
-        <h3 class="activity-title">Keputrian</h3>
-        <p class="activity-description">Build and program robots, participate in robotics competitions.</p>
-        <button class="register-btn">Register Now</button>
-      </div>
-    </div>
-    
-    <!-- Achievements Section -->
-    <div class="achievements-section">
+
+       <!-- Activity 6: Banjari  -->
+       <div class="col-md-6 col-lg-4">
+         <div class="activity-card"
+              data-bs-toggle="modal" data-bs-target="#programModal"
+              data-program-title="Banjari"
+              data-program-logo="asset/banjari.png"
+              data-program-description="Seni musik Islami menggunakan rebana (terbang) untuk mengiringi shalawat dan lagu-lagu pujian. Melatih kekompakan irama dan vokal."
+              data-program-registration="Latihan setiap Sabtu sore di Aula Masjid Sekolah. Hubungi Fahmi untuk info lebih lanjut.">
+           <!-- Konten yang terlihat di kartu -->
+           <img src="asset/banjari.png" alt="Banjari Logo" class="activity-logo">
+           <h3 class="activity-title">Banjari</h3>
+           <p class="activity-description">Seni musik Islami dengan rebana dan shalawat.</p>
+         </div>
+       </div>
+
+       <!-- Activity 7: Robotika  -->
+       <div class="col-md-6 col-lg-4">
+         <div class="activity-card"
+              data-bs-toggle="modal" data-bs-target="#programModal"
+              data-program-title="Robotika"
+              data-program-logo="asset/robotics.png"
+              data-program-description="Merancang, membangun, dan memprogram robot. Mengasah logika pemrograman, pemecahan masalah, dan persiapan mengikuti kompetisi robotika."
+              data-program-registration="Pendaftaran dan seleksi akan diumumkan di mading sekolah. Tempat latihan di Lab Komputer.">
+           <!-- Konten yang terlihat di kartu -->
+           <img src="asset/robotics.png" alt="Robotika Logo" class="activity-logo">
+           <h3 class="activity-title">Robotika</h3>
+           <p class="activity-description">Merancang, membangun, dan memprogram robot.</p>
+         </div>
+       </div>
+
+       <!-- Activity 8: Futsal -->
+       <div class="col-md-6 col-lg-4">
+         <div class="activity-card"
+              data-bs-toggle="modal" data-bs-target="#programModal"
+              data-program-title="Futsal"
+              data-program-logo="asset/futsal.png"
+              data-program-description="Mengembangkan kemampuan bermain futsal, melatih fisik, teknik dasar (dribbling, passing, shooting), strategi permainan, dan partisipasi dalam turnamen."
+              data-program-registration="Seleksi pemain diadakan setiap awal semester. Jadwal latihan di Lapangan Futsal Sekolah. Info: Fahmi.">
+           <!-- Konten yang terlihat di kartu -->
+           <img src="asset/futsal.png" alt="Futsal Logo" class="activity-logo">
+           <h3 class="activity-title">Futsal</h3>
+           <p class="activity-description">Mengasah kemampuan bermain futsal dan kerjasama tim.</p>
+         </div>
+       </div>
+
+       <!-- Activity 9: Keputrian -->
+       <div class="col-md-6 col-lg-4">
+         <div class="activity-card"
+              data-bs-toggle="modal" data-bs-target="#programModal"
+              data-program-title="Keputrian"
+              data-program-logo="asset/keputrian.png"
+              data-program-description="Kegiatan khusus siswi untuk pendalaman ilmu agama (fiqh wanita), diskusi, keterampilan (memasak, menjahit), dan pengembangan diri dalam perspektif Islam."
+              data-program-registration="Kegiatan rutin setiap hari Jumat siang di Aula Putri. Semua siswi otomatis terdaftar.">
+           <!-- Konten yang terlihat di kartu -->
+           <img src="asset/keputrian.png" alt="Keputrian Logo" class="activity-logo">
+           <h3 class="activity-title">Keputrian</h3>
+           <p class="activity-description">Kegiatan pendalaman agama dan keterampilan khusus siswi.</p>
+         </div>
+       </div>
+
+    </div> <!-- Tutup .row .activities-grid -->
+
+    <!-- Achievements Section (Tetap sama seperti sebelumnya) -->
+    <div class="achievements-section mt-5">
       <div class="achievements-header">
         <h2 class="section-title">Prestasi</h2>
         <div class="filter-tabs">
@@ -107,217 +178,165 @@
           <button class="filter-tab" data-filter="academic">Academic</button>
           <button class="filter-tab" data-filter="sports">Sports</button>
           <button class="filter-tab" data-filter="arts">Arts</button>
+          <button class="filter-tab" data-filter="science">Science</button>
+          <button class="filter-tab" data-filter="religious">Religious</button>
         </div>
       </div>
-      
-      <div class="stats-cards">
-        <div class="stat-card">
-          <div class="stat-icon">🏆</div>
-          <div class="stat-number">156</div>
-          <div class="stat-label">Total Awards</div>
+
+      <div class="row g-3 stats-cards mb-4">
+        <div class="col-sm-6 col-md-3">
+            <div class="stat-card">
+                <div class="stat-icon">🏆</div>
+                <div class="stat-number">130</div>
+                <div class="stat-label">Total Penghargaan</div>
+            </div>
         </div>
-        
-        <div class="stat-card">
-          <div class="stat-icon">🥇</div>
-          <div class="stat-number">42</div>
-          <div class="stat-label">First Places</div>
+        <div class="col-sm-6 col-md-3">
+            <div class="stat-card">
+                <div class="stat-icon">🥇</div>
+                <div class="stat-number">20</div>
+                <div class="stat-label">Juara Pertama</div>
+            </div>
         </div>
-        
-        <div class="stat-card">
-          <div class="stat-icon">👥</div>
-          <div class="stat-number">89</div>
-          <div class="stat-label">Participants</div>
+        <div class="col-sm-6 col-md-3">
+            <div class="stat-card">
+                 <div class="stat-icon">👥</div>
+                 <div class="stat-number">100</div>
+                 <div class="stat-label">Peserta Lomba</div>
+            </div>
         </div>
-        
-        <div class="stat-card">
-          <div class="stat-icon">⭐</div>
-          <div class="stat-number">25</div>
-          <div class="stat-label">Competitions</div>
+        <div class="col-sm-6 col-md-3">
+            <div class="stat-card">
+                <div class="stat-icon">⭐</div>
+                <div class="stat-number">50</div>
+                <div class="stat-label">Kompetisi</div>
+            </div>
         </div>
       </div>
-      
-      <div class="achievements-grid">
-        <div class="achievement-card" data-category="science">
-          <h3 class="achievement-title">National Science Fair Winner</h3>
-          <span class="achievement-category">Science</span>
-          <p class="achievement-description">First place in the National Science Fair for innovative research in renewable energy.</p>
+
+      <div class="row g-4 achievements-grid">
+        <div class="col-md-6 col-lg-4 achievement-card" data-category="academic">
+          <h3 class="achievement-title">Masuk PTN Jalur SNBP</h3>
+          <span class="achievement-category">Academic</span>
+          <p class="achievement-description">Siswa MA Sains Roudlotul Qur'an yang telah lulus tes masuk PTN Jalur SNBP pada pengumuman tanggal
+            18 Maret 2025</p>
+            <img class="foto-prestasi" src="asset/snbpprestasi.jpg" alt="Deskripsi Prestasi">
           <div class="achievement-meta">
-            <div class="meta-item">
-              <span class="meta-icon">📅</span>
-              <span>March 15, 2025</span>
-            </div>
-            <div class="meta-item">
-              <span class="meta-icon">📍</span>
-              <span>National Convention Center</span>
-            </div>
+            <div class="meta-item"><span class="meta-icon">📅</span><span>March 15, 2025</span></div>
+            <div class="meta-item"><span class="meta-icon">📍</span><span>Seleksi Nasional Berdasarkan Prestasi</span></div>
           </div>
         </div>
-        
-        <div class="achievement-card" data-category="sports">
-          <h3 class="achievement-title">Regional Chess Champion</h3>
-          <span class="achievement-category">Sports</span>
-          <p class="achievement-description">Winner of the Regional Chess Championship, qualifying for nationals.</p>
+        <div class="col-md-6 col-lg-4 achievement-card" data-category="academic">
+          <h3 class="achievement-title">Perlombaan Tingkat Nasional</h3>
+          <span class="achievement-category">Academic</span>
+          <p class="achievement-description">Juara dalam berbagai perlombaan tingkat Nasional</p>
+          <img class="foto-prestasi" src="asset/prestasi2.png" alt="Deskripsi Prestasi">
           <div class="achievement-meta">
-            <div class="meta-item">
-              <span class="meta-icon">📅</span>
-              <span>April 2, 2025</span>
-            </div>
-            <div class="meta-item">
-              <span class="meta-icon">📍</span>
-              <span>City Sports Complex</span>
-            </div>
+            <div class="meta-item"><span class="meta-icon">📅</span><span>January 21, 2025</span></div>
+            <div class="meta-item"><span class="meta-icon">📍</span><span>MA Sains Roudlotul Qur'an</span></div>
           </div>
         </div>
-        
-        <div class="achievement-card" data-category="arts">
-          <h3 class="achievement-title">Art Exhibition Winner</h3>
+        <div class="col-md-6 col-lg-4 achievement-card" data-category="arts">
+          <h3 class="achievement-title">Juara 2 Desain Poster Se Kabupaten Lamongan</h3>
           <span class="achievement-category">Arts</span>
-          <p class="achievement-description">Best Young Artist award at the State Art Exhibition for outstanding oil painting.</p>
+          <p class="achievement-description">Dava Alief juara 2 Desain Poster Se Kabupaten Lamongan</p>
+          <img class="foto-prestasi" src="path/to/image.jpg" alt="Deskripsi Prestasi">
           <div class="achievement-meta">
-            <div class="meta-item">
-              <span class="meta-icon">📅</span>
-              <span>May 20, 2025</span>
+            <div class="meta-item"><span class="meta-icon">📅</span><span>May 20, 2025</span></div>
+            <div class="meta-item"><span class="meta-icon">📍</span><span>MA Sains Roudlotul Qur'an</span></div>
+          </div>
+        </div>
+        <!-- Kartu prestasi lain-->
+      </div>
+    </div>
+  </div> <!-- Tutup .container -->
+
+   <!-- Bootstrap Modal Structure (MODIFIED) -->
+   <div class="modal fade" id="programModal" tabindex="-1" aria-labelledby="programModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="programModalLabel">Detail Program</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <!-- Bagian Detail Program -->
+            <div class="col-md-4 text-center">
+              <img src="" alt="Program Logo" id="modalProgramLogo" class="img-fluid mb-3" style="max-height: 150px;">
             </div>
-            <div class="meta-item">
-              <span class="meta-icon">📍</span>
-              <span>State Art Gallery</span>
+            <div class="col-md-8">
+              <h4 id="modalProgramTitle">Nama Program</h4>
+              <p id="modalProgramDescription">Deskripsi detail program akan muncul di sini...</p>
+              <hr>
+              <!-- bisa tetap menampilkan info kontak di sini jika mau -->
+              <h5>Informasi Kontak Pendaftaran:</h5>
+              <p id="modalProgramRegistrationInfo">Detail kontak pendaftaran akan muncul di sini...</p>
             </div>
           </div>
+
+          <hr> <!-- Garis pemisah sebelum form -->
+
+          <!-- Bagian Form Pendaftaran -->
+          <h5>Formulir Pendaftaran</h5>
+          <form id="registrationForm">
+            <!-- Hidden input untuk menyimpan nama program yang dipilih -->
+            <input type="hidden" id="formProgramName" name="programName" value="">
+
+            <div class="mb-3">
+              <label for="formName" class="form-label">Nama Lengkap</label>
+              <input type="text" class="form-control" id="formName" name="fullName" required>
+            </div>
+            <div class="mb-3">
+              <label for="formClass" class="form-label">Kelas</label>
+              <input type="text" class="form-control" id="formClass" name="class" placeholder="Contoh: X IPA 1" required>
+            </div>
+            <div class="mb-3">
+              <label for="formContact" class="form-label">Nomor WhatsApp/Telepon Aktif</label>
+              <input type="tel" class="form-control" id="formContact" name="contact" placeholder="Contoh: 081234567890" required>
+            </div>
+             <div class="mb-3">
+              <label for="formReason" class="form-label">Alasan Singkat Bergabung (Opsional)</label>
+              <textarea class="form-control" id="formReason" name="reason" rows="2"></textarea>
+            </div>
+            <!-- Tombol Submit Form di Modal Footer  agar lebih rapi -->
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+          <!-- Tombol Submit  -->
+          <button type="submit" class="btn btn-primary" form="registrationForm">Kirim Pendaftaran</button>
         </div>
       </div>
     </div>
   </div>
-  
-  <!-- Footer -->
+
+  <!-- Footer  -->
   <footer>
     <div class="footer-container">
       <div class="footer-section">
         <h3>Contact Us</h3>
-        <div class="contact-item">
-          <span class="contact-icon">📧</span>
-          <span>info@schoolprogram.com</span>
-        </div>
-        <div class="contact-item">
-          <span class="contact-icon">📞</span>
-          <span>(555) 123-4567</span>
-        </div>
-        <div class="contact-item">
-          <span class="contact-icon">📍</span>
-          <span>123 Education St, City, State</span>
-        </div>
+        <div class="contact-item"><span class="contact-icon">📧</span><span>info@masainsrq.sch.id</span></div>
+        <div class="contact-item"><span class="contact-icon">📞</span><span>(0322) XXXXXX</span></div>
+        <div class="contact-item"><span class="contact-icon">📍</span><span>Jl. Pendidikan No. 1, Lamongan</span></div>
       </div>
-      
       <div class="footer-section">
         <h3>Quick Links</h3>
-        <a href="#">About Us</a>
-        <a href="#">Programs</a>
-        <a href="#">Events</a>
-        <a href="#">Contact</a>
+        <a href="#">Home</a><a href="#">Profil</a><a href="#">Program</a><a href="#">Informasi</a>
       </div>
-      
       <div class="footer-section">
         <h3>Follow Us</h3>
         <div class="social-icons">
-          <a href="#"><span>fb</span></a>
-          <a href="#"><span>tw</span></a>
-          <a href="#"><span>ig</span></a>
-          <a href="#"><span>in</span></a>
+          <a href="#"><span>fb</span></a><a href="#"><span>tw</span></a><a href="#"><span>ig</span></a><a href="#"><span>yt</span></a>
         </div>
       </div>
     </div>
-    
-    <div class="copyright">
-      &copy; 2025 School Program. All rights reserved.
-    </div>
+    <div class="copyright">© 2025 MA Sains Roudlotul Qur'an Lamongan.</div>
   </footer>
-  
-  <script>
-    // Registration button interaction
-    const registerButtons = document.querySelectorAll('.register-btn');
-    registerButtons.forEach(button => {
-      button.addEventListener('click', function() {
-        const activityName = this.parentElement.querySelector('.activity-title').textContent;
-        alert(`Thank you for registering for ${activityName}! We will contact you with more information.`);
-      });
-    });
-    
-    // Achievement filter functionality
-    const filterTabs = document.querySelectorAll('.filter-tab');
-    const achievementCards = document.querySelectorAll('.achievement-card');
-    
-    filterTabs.forEach(tab => {
-      tab.addEventListener('click', function() {
-        // Remove active class from all tabs
-        filterTabs.forEach(t => t.classList.remove('active'));
-        
-        // Add active class to clicked tab
-        this.classList.add('active');
-        
-        const filter = this.getAttribute('data-filter');
-        
-        // Show/hide achievement cards based on filter
-        if (filter === 'all') {
-          achievementCards.forEach(card => {
-            card.style.display = 'block';
-          });
-        } else {
-          achievementCards.forEach(card => {
-            if (card.getAttribute('data-category') === filter) {
-              card.style.display = 'block';
-            } else {
-              card.style.display = 'none';
-            }
-          });
-        }
-      });
-    });
-    
-    // Navigation active state
-    const navLinks = document.querySelectorAll('nav ul li a');
-    navLinks.forEach(link => {
-      link.addEventListener('click', function() {
-        navLinks.forEach(l => l.classList.remove('active'));
-        this.classList.add('active');
-      });
-    });
-    
-    // Animate stats on scroll
-    const statNumbers = document.querySelectorAll('.stat-number');
-    let animated = false;
-    
-    function animateStats() {
-      if (animated) return;
-      
-      const statsSection = document.querySelector('.stats-cards');
-      const statsSectionTop = statsSection.getBoundingClientRect().top;
-      
-      if (statsSectionTop < window.innerHeight - 100) {
-        statNumbers.forEach(statNumber => {
-          const targetValue = parseInt(statNumber.textContent);
-          let currentValue = 0;
-          const duration = 1500; // milliseconds
-          const increment = targetValue / (duration / 16);
-          
-          function updateCounter() {
-            currentValue += increment;
-            if (currentValue < targetValue) {
-              statNumber.textContent = Math.floor(currentValue);
-              requestAnimationFrame(updateCounter);
-            } else {
-              statNumber.textContent = targetValue;
-            }
-          }
-          
-          requestAnimationFrame(updateCounter);
-        });
-        
-        animated = true;
-      }
-    }
-    
-    window.addEventListener('scroll', animateStats);
-    
-    // Check if stats are visible on page load
-    window.addEventListener('load', animateStats);
-  </script>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!-- Script Kustom  -->
+  <script src="program.js"></script>
 </body>
+</html>
