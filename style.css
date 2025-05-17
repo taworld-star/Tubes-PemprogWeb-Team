@@ -78,3 +78,21 @@ img{
     background-color: #1a3a5f;
     height: 60px;
 }
+
+.text-sejarah{
+    position: relative;
+    font-size: 30px;
+    color: white;
+    text-align: center left;
+}
+
+.isi-sejarah{
+    position: relative;
+    margin: 35px;
+    text-align: justify ;
+    font-size: 30px;
+    justify-items: center;
+    text-indent: 50px;
+    line-height: 50px;
+    top: -10px;
+}
