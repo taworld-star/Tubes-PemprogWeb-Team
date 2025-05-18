@@ -107,7 +107,6 @@ img{
     /* text-indent: 50px; */
     line-height: 50px;
     top: -10px;
-    font-family: poppins-bold;
 }
 
 .visi{
@@ -122,4 +121,44 @@ img{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 60px;
+}
+
+.h1_profil{
+    text-align: center;
+    position: relative;
+    top: 35px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.card_spot{
+    height: 800px;
+}
+
+.card1{
+    position: relative;
+    height: 600px;
+    width: 550px;
+    background-color: #1a3a5f;
+    left: 20%;
+    top: 11%;
+    border-radius: 10px;
+}
+
+.card2{
+    position: relative;
+    height: 600px;
+    width: 550px;
+    background-color: #1a3a5f;
+    left: 53%;
+    top: -64%;
+    border-radius: 10px;
+}
+
+.h1_profilguru{
+    text-align: center;
+    color: white;
+    position: relative;
+    left: -3%;
+    top: 40%;
 }
