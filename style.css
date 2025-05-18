@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #ffefba;
+    background-color: #f9f7e8;
 }
 
 header{
@@ -45,11 +45,15 @@ span a{
 .description{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.603);
-    color: white;
+    color: #faf7e3;
     width: 100%;
     height: 30%;
     top: 850px;
     
+}
+
+.bg_color{
+    background-color: #f9f7e8;
 }
 
 h1{
@@ -89,6 +93,8 @@ img{
 .isi-sejarah{
     position: relative;
     margin: 35px;
+    padding-left: 10px;
+    padding-right: 12px;
     text-align: justify ;
     font-size: 30px;
     justify-items: center;
@@ -98,15 +104,25 @@ img{
     font-family: poppins-bold;
 }
 
-.isi-visimisi{
+.isi-visi{
     position: relative;
-    margin: 35px;
-    text-align: justify ;
-    font-size: 34px;
+    margin: 25px;
+    text-align: center ;
+    font-size: 24px;
     justify-items: center;
     /* text-indent: 50px; */
-    line-height: 50px;
-    top: -10px;
+    line-height: 40px;
+    top: -15px;
+}
+
+.isi-misi{
+    position: relative;
+    text-align: center ;
+    font-size: 24px;
+    justify-items: center;
+    /* text-indent: 50px; */
+    line-height: 40px;
+    top: -30px;
 }
 
 .visi{
@@ -114,6 +130,7 @@ img{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 60px;
+    
 }
 
 .misi{
@@ -121,6 +138,7 @@ img{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 60px;
+    top: -20px;
 }
 
 .h1_profil{
@@ -143,6 +161,18 @@ img{
     left: 20%;
     top: 11%;
     border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card1:hover {
+  transform: translateY(-5px); /* Efek angkat saat hover */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  
+}
+
+.card2:hover {
+  transform: translateY(-5px); /* Efek angkat saat hover */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
 
 .card2{
@@ -153,6 +183,7 @@ img{
     left: 53%;
     top: -64%;
     border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .h1_profilguru{
