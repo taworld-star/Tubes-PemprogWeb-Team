@@ -199,6 +199,49 @@ top: 16%;
 width: 30%;
 }
 
+.h1_profilsiswa{
+    text-align: center;
+    color: white;
+    position: relative;
+    left: -3%;
+    top: 10%;
+    font-size: 50px;
+}
+
+.h2_profilsiswa{
+    text-align: center;
+    color: rgb(251, 255, 0);
+    position: relative;
+    left: 0%;
+    top: 12%;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.h3_profilsiswa{
+    text-align: center;
+    color: white;
+    position: relative;
+    left: 0%;
+    top: 10.6%;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.img_profilsiswa{
+    width: 40%;
+    position: relative;
+    left: 31%;
+    top: 35px;
+}
+
+.btn_card2{
+justify-content: center;
+position: relative;
+left: 32.7%;
+top: 16%;
+width: 30%;
+}
 
 footer {
   background-color: #1a3a5f;
